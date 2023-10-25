@@ -3,7 +3,7 @@ use std::fmt::Debug;
 use std::path::PathBuf;
 use std::sync::Arc;
 
-use crate::docker::driver::VolumeDriver;
+use crate::driver::VolumeDriver;
 use axum::body::Bytes;
 use axum::http::{HeaderMap, HeaderValue, Request, StatusCode};
 use axum::middleware::Next;

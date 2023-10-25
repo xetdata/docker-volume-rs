@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 use std::sync::Arc;
 
-use crate::docker::errors::VolumeResponse;
+use crate::errors::VolumeResponse;
 use async_trait::async_trait;
 use axum::extract::State;
 use axum::Json;

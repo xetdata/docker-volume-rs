@@ -1,6 +1,6 @@
 [package]
 name = "docker-volume"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Joseph Godlewski <jgodlewski@xethub.com>"]
 description = "A Rust helper for docker volumes"
